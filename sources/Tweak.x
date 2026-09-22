@@ -1911,7 +1911,7 @@ static void RefreshNavigationButtons(void)
 %ctor
 {
     %init;
-    GonerinoStartUpdateChecker();
+    //GonerinoStartUpdateChecker();
     [[NSNotificationCenter defaultCenter]
         addObserverForName:FeedFilterStateDidChangeNotification
                     object:nil
